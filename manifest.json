@@ -1,0 +1,16 @@
+{
+  "vendor": "gocommerce",
+  "name": "store-components",
+  "version": "1.0.0",
+  "title": "Store Components",
+  "description": "",
+  "mustUpdateAt": "2019-10-24",
+  "builders": {
+    "react": "3.x",
+    "store": "0.x"
+  },
+  "dependencies": {
+    "vtex.store-components": "3.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
