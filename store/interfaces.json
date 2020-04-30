@@ -1,5 +1,9 @@
 {
+  "container": {
+    "component": "index"
+  },
   "logo.auto-image": {
-    "component": "LogoAutoImage"
+    "component": "LogoAutoImage",
+    "around": ["container"]
   }
 }

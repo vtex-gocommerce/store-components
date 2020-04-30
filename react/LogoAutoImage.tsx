@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { useRuntime } from 'vtex.render-runtime'
 import { Logo } from 'vtex.store-components'
+import { Context } from 'gocommerce.gc-context'
 
 interface LogoAutoImageProps {
   href: string
@@ -12,15 +12,18 @@ interface LogoAutoImageProps {
   mobileHeight: string | number
 }
 
-const defaultImageUrl = "https://static.gocommerce.com/{{account}}/assets/gocommerce/png/logo.png"
-
 /**
  * Logo of the store
  */
-const LogoAutoImage = React.memo((props:LogoAutoImageProps) => {
-  const { account } = useRuntime()
+const LogoAutoImage: StorefrontFunctionComponent<LogoAutoImageProps> = props => {
+  const {
+    accountData: { id, contract },
+  } = React.useContext(Context.AccountContext)
+
+  const defaultImageUrl = `https://static.gocommerce.com/${id}/assets/${contract}/png/logo.png`
   const imageUrl = props.url || defaultImageUrl
-  return <Logo {...props} url={imageUrl.replace(/{{account}}/g, account)} href={props.href || '/'} />
-})
+
+  return <Logo {...props} url={imageUrl} href={props.href || '/'} />
+}
 
 export default LogoAutoImage
