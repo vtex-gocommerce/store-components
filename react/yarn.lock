@@ -36,3 +36,15 @@ csstype@^2.2.0:
   version "2.6.5"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.5.tgz#1cd1dff742ebf4d7c991470ae71e12bb6751e034"
   integrity sha512-JsTaiksRsel5n7XwqPAfB0l3TFKdpjW/kgAELf9vrb5adGA7UCPLajKK5s3nFrcFm3Rkyp/Qkgl73ENc1UY3cA==
+
+"gocommerce.gc-context@http://gocommerce.vtexassets.com/_v/public/typings/v1/gocommerce.gc-context@1.2.1/public/@types/gocommerce.gc-context":
+  version "1.2.1"
+  resolved "http://gocommerce.vtexassets.com/_v/public/typings/v1/gocommerce.gc-context@1.2.1/public/@types/gocommerce.gc-context#026eea3d3b55898879ca72ce035e5adc533ec62c"
+
+"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.100.1/public/@types/vtex.render-runtime":
+  version "8.100.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.100.1/public/@types/vtex.render-runtime#7f972f369c3db71d406d49b1d91be461f177103f"
+
+"vtex.store-components@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.113.0/public/_types/react":
+  version "0.0.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.113.0/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
