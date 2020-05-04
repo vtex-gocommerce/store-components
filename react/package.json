@@ -13,6 +13,8 @@
     "vtex.store-components": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.113.0/public/_types/react"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "yarn",
+    "test": "vtex-test-tools test",
+    "lint": "eslint --ext js,jsx,ts,tsx ."
   }
 }

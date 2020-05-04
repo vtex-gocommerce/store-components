@@ -15,7 +15,7 @@ interface LogoAutoImageProps {
 /**
  * Logo of the store
  */
-const LogoAutoImage: StorefrontFunctionComponent<LogoAutoImageProps> = props => {
+const LogoAutoImage = (props: LogoAutoImageProps) => {
   const {
     accountData: { id, contract },
   } = React.useContext(Context.AccountContext)
