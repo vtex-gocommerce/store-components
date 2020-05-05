@@ -1,5 +1,6 @@
 {
   "logo.auto-image": {
-    "component": "LogoAutoImage"
+    "component": "LogoAutoImage",
+    "around": ["GoCommerceContext"]
   }
 }

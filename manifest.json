@@ -10,7 +10,8 @@
     "store": "0.x"
   },
   "dependencies": {
-    "vtex.store-components": "3.x"
+    "vtex.store-components": "3.x",
+    "gocommerce.gc-context": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
